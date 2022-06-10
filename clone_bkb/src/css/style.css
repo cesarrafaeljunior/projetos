@@ -1,0 +1,91 @@
+body{
+    background: linear-gradient(179.61deg, #F5EBDC 64.82%, rgba(245, 235, 220, 0) 82.47%, #FFFFFF 97.72%);
+}
+
+.head{
+    height: 94px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid #D62200;
+    padding: 15px 0;
+}
+
+.head .container{
+    width: 100%;
+    max-width: 1100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.head .container .logo1{
+    width: 200px;
+    height: 65px;
+}
+
+.head .container .logo1 ~ .logo1{
+    width: 169px;
+    height: 65px;
+}
+
+.principal{
+    display: flex;
+    justify-content: center;
+
+}
+.principal .content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:41.22px;
+    margin-top: 41px;
+}
+.principal .content img{
+    width: 546px;
+    height: 586px;
+}
+.principal .content button{
+    width: 333.47px;
+    height: 95.9px;
+    background: #DB3B1D;
+    border: solid 1px #DB3B1D;
+    border-radius: 15px;
+    font-family: 'Nunito';
+    font-weight: 400;
+    font-size: 35px;
+    text-align: center;
+    color: #fff;
+}
+
+.principal .content button:hover{
+    background: #ed4123;
+    border: solid 2px #c93015;
+}
+
+.rodape{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 56px;
+
+}
+
+.rodape .content_rodape{
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.rodape .content_rodape p{
+    color:#502314;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.rodape .content_rodape img{
+    margin-bottom: 46px;
+    width: 702px;
+    height: 55px;
+}
