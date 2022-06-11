@@ -1,0 +1,61 @@
+/*
+Theme Name: Página de vagas
+--------------------------------------------
+ESTRUTURAÇÃO BASE
+--------------------------------------------
+**** DECLARAÇÃO DE VARIÁVEIS
+**** ESTILOS GERAIS
+**** BODY
+**** HEADER
+**** FOOTER
+**** PÁGINA INICIAL
+**** EXTRAS
+**** @MEDIA
+https://www.w3schools.com/css/css_outline.asp
+http://getbem.com/introduction/
+https://cssbattle.dev/
+*/
+
+/*DECLARAÇÃO DE VARIÁVEIS*/
+
+/*ESTILOS GERAIS*/
+li,.description,span{
+    font-family: 'Montserrat' ;
+    font-weight: 400;
+    line-height: 32px;
+}
+h2{
+    font-family: 'Open Sans';
+    font-weight: 700;
+    font-size: 24px; 
+    color: #2D2D2D;; 
+}
+
+h3{
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: #2D2D2D;  
+}
+
+p{
+    font-family: 'Open Sans';
+    font-weight: 400; 
+    font-size: 18px;
+    line-height: 28px;
+    color: #2D2D2D;
+}
+a{
+    font-family: 'Montserrat';
+    font-weight: 300;
+    font-size: 20px;
+    color: #E5E5E5;  
+}
+/*HEADER*/
+
+/*BODY*/
+
+/*EXTRAS*/
+
+/*@MEDIA*/
