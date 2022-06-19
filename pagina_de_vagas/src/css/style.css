@@ -19,10 +19,200 @@ https://cssbattle.dev/
 /*DECLARAÇÃO DE VARIÁVEIS*/
 
 /*ESTILOS GERAIS*/
-
-/*BODY*/
+body{
+    background-color: #c2c2c2;
+}
+button{
+    color: #FFFFFF;;
+    background-color: #BC00FF;
+    border: 2px solid #BC00FF;
+    border-radius: 8px;
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 16px;
+}
 
 /*HEADER*/
+.header{
+    min-height: 562px;
+    background-image: linear-gradient(#19017AE5,#19017AE5), 
+    url("./../pictures/banner_fundo.png");
+    background-position: center;
+    background-size: cover;
+}
+.container{
+    max-width: 1340px;
+    margin: 0 auto;
+}
+.header .container .content_header{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+.header .container .content_header .logo_box{
+    margin: 54px 0 45.6px 0;
+}
+.header .container .content_header .main_title{
+    font-weight: 600;
+    font-size: 48px;
+    color: #DEE2E6;
+} 
+.header .container .content_header .description_box{
+    margin: 32px 0 32px 0;
+} 
+.header .container .content_header .description_box p{
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 36px;
+    color: #F1F3F5;
+}
+.header .container .content_header .btn_head{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+.header .container .content_header .btn_head strong{
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 18px;
+    color: #F1F3F5;
+}
+.header .container .content_header .btn_head button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 296px;
+    height: 48px;
+}
+
+/*BODY*/
+.main_content{
+}
+.main_content .container{}
+.main_content .container h2{
+    margin: 45px 0 54px 0;
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 22px;
+    color: #212529;
+}
+.main_content .container .session_vacancies{
+    max-width: 1383px;
+    display: flex;
+    gap: 30px;
+    margin-top: 54px;
+}
+.main_content .container .session_vacancies ul{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    width: 818px;
+    height: 985px;
+}
+.main_content .container .session_vacancies ul li{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    width: 818px;
+    height: 307px;
+    background: #FFFFFF;
+    border-radius: 8px;
+}  
+.main_content .container .session_vacancies ul li h3{
+    margin: 38px 0 0px 38px;
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 22px;
+    color: #212529;
+}
+.main_content .container .session_vacancies ul li .locations{
+    display: flex;
+    gap: 40px;
+    margin: 20px 0 28px 38px;
+    font-family: 'Poppins';
+    font-size: 14px;
+}
+.main_content .container .session_vacancies ul li p{
+    margin: 0px 0 35px 38px;
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px; 
+    color: #343A40;
+} 
+.main_content .container .session_vacancies ul li .button_list{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.main_content .container .session_vacancies ul li .button_list p{
+    width: 111px;
+    height: 30px;
+    text-align: center;
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 14px;
+    background: #DEE2E6;
+    border-radius: 8px;
+    color: #343A40;
+}
+.main_content .container .session_vacancies .vacancies ul li .button_list button{
+    width: 150px;
+    height: 38px;
+    margin-right: 40px;
+}
+
+
+.main_content .container .session_vacancies .selected_vacancies ul li h2{
+    background-color: #F1F3F5;
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 22px;
+    color: #212529;
+    border-bottom: 2px white solid;
+}
+.main_content .container .session_vacancies .selected_vacancies ul{
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    width: 503px;
+    height: 737px;
+    border-radius: 8px;
+}
+.main_content .container .session_vacancies .selected_vacancies ul li{
+    display: flex;
+    width: 503px;
+    height: 160px;
+}
+.main_content .container .session_vacancies .selected_vacancies ul li .choice{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+.main_content .container .session_vacancies .selected_vacancies ul li .choice .trash_box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 38px;
+    background: #dfdfdf; 
+    border: 2px solid #F1F3F5;
+    border-radius: 8px;
+}
+.main_content .container .session_vacancies .selected_vacancies ul li .choice h3{
+    width: 376px;
+    height: 54px;
+    margin-bottom: 22px;
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 18px;
+    color: #212529;
+}
+.main_content .container .session_vacancies .selected_vacancies ul li .reference{
+    padding: 20px 32px 32px 30px;
+}
+
 
 /*EXTRAS*/
 
